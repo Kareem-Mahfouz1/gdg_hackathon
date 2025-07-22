@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import '../../../../../constants.dart';
 import '../../../../../core/models/user.dart';
 import '../../../../../core/utils/app_router.dart';

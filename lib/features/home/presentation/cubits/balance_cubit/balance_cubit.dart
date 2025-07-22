@@ -1,6 +1,6 @@
-import 'package:bloc/bloc.dart';
-import '../../../data/repos/balance_repo.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:meta/meta.dart';
+import '../../../data/repos/balance_repo.dart';
 
 part 'balance_state.dart';
 

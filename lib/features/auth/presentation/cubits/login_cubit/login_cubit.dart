@@ -1,9 +1,8 @@
-import 'package:bloc/bloc.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../data/repos/login_repo.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:jwt_decoder/jwt_decoder.dart';
 import 'package:meta/meta.dart';
-
 part 'login_state.dart';
 
 class LoginCubit extends Cubit<LoginState> {

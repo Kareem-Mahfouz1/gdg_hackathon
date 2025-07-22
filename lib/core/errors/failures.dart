@@ -31,10 +31,7 @@ class ServerFailure extends Failure {
         } else {
           return ServerFailure('Unknown Error');
         }
-      default:
-        return ServerFailure(
-            'Oops, there was an error. Please try again later 1');
-    }
+      }
   }
 
   factory ServerFailure.fromResponse(int statusCode, dynamic response) {

@@ -56,6 +56,7 @@ class AddGoalBody extends StatelessWidget {
                   child: CustomButton(
                     text: 'Save',
                     onPressed: () {
+                      // TODO: complete logic
                       Goal goal = Goal.fromJson({
                         'goalName': goalName.text,
                         'targetAmount': int.parse(amount.text),
